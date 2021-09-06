@@ -19,11 +19,10 @@ class Firstpage extends StatelessWidget {
 
         title: Text('new appbar'),
         backgroundColor: Colors.red,
-
-
-
-
+        leading: Icon(Icons.account_circle_outlined),
+        leadingWidth: 100 ,
       ) ,
+
     );
   }
 }
