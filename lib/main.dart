@@ -20,11 +20,16 @@ class Firstpage extends StatelessWidget {
         title: Text('new appbar'),
         backgroundColor: Colors.red,
         leading: Icon(Icons.account_circle_outlined),
-        leadingWidth: 100 ,
+        leadingWidth: 30 ,//icon move
+        shadowColor: Colors.yellow,
+        elevation: 100,//shadow color area
+        toolbarHeight: 100, //control appbar hight
+        centerTitle: true,//trun title into center
         actions: [
           Icon(Icons.more_vert)
         ],
       ) ,
+
 
     );
   }
