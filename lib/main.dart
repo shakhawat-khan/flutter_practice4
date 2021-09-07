@@ -21,6 +21,9 @@ class Firstpage extends StatelessWidget {
         backgroundColor: Colors.red,
         leading: Icon(Icons.account_circle_outlined),
         leadingWidth: 100 ,
+        actions: [
+          Icon(Icons.more_vert)
+        ],
       ) ,
 
     );
