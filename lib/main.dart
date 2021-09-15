@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'drawer_onTap.dart';
+import 'gesture.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -69,6 +70,42 @@ class Firstpage extends StatelessWidget {
 
         ),
       ),
+
+      body: Column(
+
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+
+        children: [
+
+          Container(
+            child: Padding(
+              padding: const EdgeInsets.all(20.0),
+              child: Text('hello'),
+            ),
+            margin: EdgeInsets.all(20) ,
+
+            color: Colors.red,
+
+          ),
+          Container(
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: TextFormField(
+                decoration: InputDecoration(
+                  icon: Icon(Icons.search),
+                ),
+              ),
+            ),
+          ),
+
+          Container(
+            child: gesture(),
+            padding: EdgeInsets.all(12),
+          )
+        ],
+      ),
+
+
 
 
     );
